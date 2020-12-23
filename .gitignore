@@ -22,7 +22,3 @@
 *.swp
 .env
 
-# Ignore everything in this directory
-*
-# Except this file
-!.gitignore
