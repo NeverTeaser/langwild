@@ -1,5 +1,4 @@
 name: golangci-lint
-runs-on: self-hosted
 
 on:
   push:
@@ -7,10 +6,11 @@ on:
       - be*
       - main
   pull_request:
+    - be*
 jobs:
   golangci:
     name: lint
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted]
     steps:
       - uses: actions/checkout@v2
       - name: golangci-lint
