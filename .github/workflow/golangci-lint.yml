@@ -3,8 +3,6 @@ runs-on: self-hosted
 
 on:
   push:
-    tags:
-      - v*
     branches:
       - be*
       - main
