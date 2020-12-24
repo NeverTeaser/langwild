@@ -1,4 +1,6 @@
 name: golangci-lint
+runs-on: self-hosted
+
 on:
   push:
     tags:
